@@ -104,57 +104,6 @@ button:active {
   gap: 0.5rem;
 }
 
-/* ✅ GitHub Footer Section */
-.github-footer {
-  margin-top: 2rem;
-  text-align: center;
-  padding-top: 1rem;
-  border-top: 1px solid #3b3b5c;
-  color: #b0b0d8;
-  font-family: 'Nanum Gothic', 'Arial', sans-serif;
-}
-
-.github-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 10px;
-  text-decoration: none;
-  color: #b0b0d8;
-  font-weight: 600;
-  font-size: 1rem;
-  transition: color 0.3s ease;
-}
-
-.github-link:hover {
-  color: #7a7aff;
-}
-
-.github-logo {
-  width: 26px;
-  height: 26px;
-  filter: invert(90%);
-  transition: transform 0.3s ease;
-}
-
-.github-link:hover .github-logo {
-  transform: rotate(10deg);
-}
-
-.github-profile {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 2px solid #7a7aff;
-  box-shadow: 0 0 8px rgba(127, 127, 255, 0.4);
-  transition: transform 0.3s ease, border-color 0.3s ease;
-}
-
-.github-profile:hover {
-  transform: scale(1.1);
-  border-color: #a6a6ff;
-}
-
-/* 📱 반응형 */
 @media (max-width: 480px) {
   body {
     padding: 1rem;
